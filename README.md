@@ -1,1 +1,1 @@
-fedora copr spec files. use at your own risk.
+Fedora [Copr](https://copr.fedorainfracloud.org/) spec files. use at your own risk.
