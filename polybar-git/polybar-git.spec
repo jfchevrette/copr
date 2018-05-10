@@ -1,9 +1,9 @@
-%global     commit          ff39c9d09fd2c584a38264968244cf56966d37dc
+%global     commit          77d36b959df0ce5e129044697da2c306c355abeb
 %global     githash         %(c=%{commit}; echo ${c:0:7})
 %global     gitdate         20180423
 %global     gittime         2040
 
-Name: polybar
+Name: polybar-git
 Version: 3.1.0
 Release: 1.%{gitdate}%{gittime}git%{githash}%{?dist}
 Summary: A fast and easy-to-use tool for creating status bars
