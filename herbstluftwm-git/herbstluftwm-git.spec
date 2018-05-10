@@ -1,4 +1,4 @@
-%define commit0 f629fb652a3b2f7756eefd694c2fc484fe15451c
+%define commit0 aed40ff791e23213f94be6f461e3da4753b9e458
 %define shortcommit0 %(c=%{commit0}; echo ${c:0:7})
 %define timestamp %(date +"%Y%m%d%H%M")
 
