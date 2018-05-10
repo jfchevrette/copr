@@ -4,10 +4,14 @@ Release:        1%{?dist}
 Summary:        A manual tiling window manager
 License:        BSD
 URL:            http://herbstluftwm.org
-Source0:        http://herbstluftwm.org/tarballs/%{name}-%{version}.tar.gz
+Source0:        https://github.com/herbstluftwm/herbstluftwm/archive/v%{version}.tar.gz
+
+BuildRequires:  asciidoc
 BuildRequires:  glib2-devel
 BuildRequires:  libX11-devel
 BuildRequires:  libXinerama-devel
+
+Conflicts:      herbstluftwm-git
 
 %description
 herbstluftwm is a manual tiling window manager for X11 using Xlib and Glib. 
