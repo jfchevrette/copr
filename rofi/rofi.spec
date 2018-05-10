@@ -8,6 +8,7 @@ License:	MIT/X11
 URL:		  https://davedavenport.github.io/rofi/
 Source0:	https://github.com/DaveDavenport/rofi/releases/download/%{version}/%{name}-%{version}.tar.gz
 
+BuildRequires: pkgconfig(bison)
 BuildRequires: pkgconfig(xft) >= 2.0
 BuildRequires: pkgconfig(cairo-xcb)
 BuildRequires: pkgconfig(check) >= 0.11.0
