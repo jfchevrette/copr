@@ -42,7 +42,7 @@ A fast and easy-to-use tool for creating status bars.
 rm -rf polybar
 git clone https://github.com/jaagr/polybar --recursive
 cd polybar
-git reset --hard %{githash}
+git reset --hard %{shortcommit0}
 
 %build
 cd polybar
