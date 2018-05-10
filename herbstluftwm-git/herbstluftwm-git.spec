@@ -4,7 +4,7 @@
 
 Name:           herbstluftwm-git
 Version:        0.7.0
-Release:        1.%{timestamp}git%{shortcommit0}
+Release:        1.%{timestamp}git%{shortcommit0}%{?dist}
 Summary:        A manual tiling window manager
 License:        BSD
 URL:            https://github.com/herbstluftwm/herbstluftwm/
