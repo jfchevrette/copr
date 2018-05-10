@@ -1,13 +1,7 @@
-%global     commit          ff39c9d09fd2c584a38264968244cf56966d37dc
-%global     githash         %(c=%{commit}; echo ${c:0:7})
-%global     gitdate         20180423
-%global     gittime         2040
-
 Name: polybar
 Version: 3.1.0
-Release: 1.%{gitdate}%{gittime}git%{githash}%{?dist}
+Release: 1%{?dist}
 Summary: A fast and easy-to-use tool for creating status bars
-
 License: MIT
 URL: https://github.com/jaagr/polybar
 
@@ -42,9 +36,8 @@ A fast and easy-to-use tool for creating status bars.
 
 %prep
 rm -rf polybar
-git clone https://github.com/jaagr/polybar --recursive
+git clone --branch %{version} --recursive https://github.com/jaagr/polybar
 cd polybar
-git reset --hard %{githash}
 
 %build
 cd polybar
