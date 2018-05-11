@@ -9,6 +9,8 @@ License:        MIT
 URL:            https://github.com/LemonBoy/bar
 Source0:        https://github.com/LemonBoy/bar/archive/v%{version}.tar.gz
 
+BuildRequires: libxcb-devel
+
 %description
 lemonbar (formerly known as bar) is a lightweight bar entirely based on XCB. Provides full UTF-8 support, basic formatting, RandR and Xinerama support and EWMH compliance without wasting your precious memory.
 
