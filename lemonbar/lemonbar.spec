@@ -9,6 +9,7 @@ License:        MIT
 URL:            https://github.com/LemonBoy/bar
 Source0:        https://github.com/LemonBoy/bar/archive/v%{version}.tar.gz
 
+BuildRequires: /usr/bin/pod2man
 BuildRequires: libxcb-devel
 
 %description
