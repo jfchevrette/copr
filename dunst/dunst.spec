@@ -48,33 +48,7 @@ make install DESTDIR=%{buildroot} PREFIX=%{_prefix}
 %doc AUTHORS CHANGELOG.md LICENSE README.md
 %{_bindir}/%{name}
 %{_datadir}/dbus-1/services/org.knopwob.%{name}.service
-/usr/lib/systemd/user/dunst.service
 %{_datadir}/%{name}
 %{_datadir}/man/man1/%{name}.1.gz
 
 %changelog
-* Thu Feb 08 2018 Jean-Francois Chevrette <jfchevrette@gmail.com> 1.3.1-1
-- Removed numlock patch
-- Bump to version 1.3.1
-
-* Tue Jun 03 2014 Lukas Zapletal <lzap+rpm@redhat.com> 1.0.0-3
-- Backported numlock fix (RHBZ 1103216)
-
-* Sat Aug 03 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0.0-2
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
-
-* Sat May 11 2013 Lukas Zapletal <lzap+rpm[@]redhat.com> - 1.0.0-1
-- bump to stable version 1.0.0
-
-* Mon Jan 28 2013 Lukas Zapletal <lzap+rpm[@]redhat.com> - 0.5.0-1
-- version bump
-- inih library is no longer required
-
-* Mon Sep 03 2012 Lukas Zapletal <lzap+rpm[@]redhat.com> - 0.3.1-3
-- package review
-
-* Wed Aug 29 2012 Lukas Zapletal <lzap+rpm[@]redhat.com> - 0.3.1-2
-- package review
-
-* Mon Aug 27 2012 Lukas Zapletal <lzap+rpm[@]redhat.com> - 0.3.1-1
-- initial version
