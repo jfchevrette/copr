@@ -11,8 +11,6 @@ BuildRequires: cairo-devel
 BuildRequires: clang
 BuildRequires: cmake
 BuildRequires: cmake-data
-BuildRequires: gcc
-BuildRequires: gcc-c++
 BuildRequires: git
 BuildRequires: i3
 BuildRequires: jsoncpp-devel
@@ -47,8 +45,8 @@ mkdir build
 cd build
 cmake .. \
     -DCMAKE_INSTALL_PREFIX:PATH=/usr \
-    -DCMAKE_C_COMPILER="clang" \
-    -DCMAKE_CXX_COMPILER="clang++" \
+    -DCMAKE_C_COMPILER="cc" \
+    -DCMAKE_CXX_COMPILER="c++" \
     -DENABLE_ALSA:BOOL="ON" \
     -DENABLE_I3:BOOL="ON" \
     -DENABLE_MPD:BOOL="ON" \
