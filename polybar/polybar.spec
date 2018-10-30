@@ -11,6 +11,7 @@ BuildRequires: cairo-devel
 BuildRequires: clang
 BuildRequires: cmake
 BuildRequires: cmake-data
+BuildRequires: gcc-c++
 BuildRequires: git
 BuildRequires: i3
 BuildRequires: jsoncpp-devel
