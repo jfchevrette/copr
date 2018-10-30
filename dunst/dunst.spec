@@ -9,6 +9,7 @@ Source0:  https://github.com/dunst-project/dunst/archive/v%{version}.tar.gz
 
 Requires: dbus
 
+BuildRequires: gcc
 BuildRequires: glib2-devel
 BuildRequires: libX11-devel
 BuildRequires: libXinerama-devel
