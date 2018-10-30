@@ -48,9 +48,7 @@ make install DESTDIR=%{buildroot} PREFIX=%{_prefix}
 %doc AUTHORS CHANGELOG.md LICENSE README.md
 %{_bindir}/%{name}
 %{_datadir}/dbus-1/services/org.knopwob.%{name}.service
-%if 0%{?fedora} >= 29
-%{_libdir}/systemd/user/dunst.service
-%endif
+/usr/lib/systemd/user/dunst.service
 %{_datadir}/%{name}
 %{_datadir}/man/man1/%{name}.1.gz
 
