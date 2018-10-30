@@ -1,5 +1,5 @@
 Name: polybar
-Version: 3.2.1
+Version: 3.1.0
 Release: 1%{?dist}
 Summary: A fast and easy-to-use tool for creating status bars
 License: MIT
@@ -8,7 +8,7 @@ URL: https://github.com/jaagr/polybar
 BuildRequires: alsa-lib-devel
 BuildRequires: binutils
 BuildRequires: cairo-devel
-#BuildRequires: clang
+BuildRequires: clang
 BuildRequires: cmake
 BuildRequires: cmake-data
 BuildRequires: gcc
@@ -47,8 +47,8 @@ mkdir build
 cd build
 cmake .. \
     -DCMAKE_INSTALL_PREFIX:PATH=/usr \
-    -DCMAKE_C_COMPILER="cc" \
-    -DCMAKE_CXX_COMPILER="c++" \
+    -DCMAKE_C_COMPILER="clang" \
+    -DCMAKE_CXX_COMPILER="clang++" \
     -DENABLE_ALSA:BOOL="ON" \
     -DENABLE_I3:BOOL="ON" \
     -DENABLE_MPD:BOOL="ON" \
