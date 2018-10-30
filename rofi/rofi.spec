@@ -55,6 +55,7 @@ make test
 %{_libdir}/pkgconfig/*.pc
 %{_mandir}/man1/rofi.1.*
 %{_mandir}/man1/rofi-sensible-terminal.1.*
+%{_mandir}/man1/rofi-theme-selector.1.*
 %{_mandir}/man5/rofi-theme.5.*
 %{_datadir}/rofi/themes/*.rasi
 %doc AUTHORS Changelog README.md Examples 
@@ -62,38 +63,3 @@ make test
 
 
 %changelog
-* Thu May 10 2018 Jean-Francois Chevrette <jfchevrette@gmail.com> - 1.5.1
-- Updating to version 1.5.1;
-
-* Fri Oct 20 2017 Jean-Francois Chevrette <jfchevrette@gmail.com> - 1.4.2-1
-- Updating to version 1.4.2;
-
-* Tue Jan 10 2017 Yaroslav Sapozhnyk <yaroslav.sapozhnik@gmail.com> - 1.3.1-1
-- Updating to version 1.3.1;
-
-* Mon Dec 26 2016 Yaroslav Sapozhnyk <yaroslav.sapozhnik@gmail.com> - 1.3.0-1
-- Updating to version 1.3.0;
-
-* Fri Aug 26 2016 Yaroslav Sapozhnyk <yaroslav.sapozhnik@gmail.com> - 1.2.0-1
-- Updating to version 1.2.0; removed XLib dependency (replaced with
-  xcb-util.xrm)
-
-* Wed Jun 15 2016 Yaroslav Sapozhnyk <yaroslav.sapozhnik@gmail.com> - 1.1.0-1
-- Updating to version 1.1.0
-
-* Fri Jun 10 2016 Yaroslav Sapozhnyk <yaroslav.sapozhnik@gmail.com> - 1.0.1-1
-- Updating to v1.0.1
-
-* Wed Apr 20 2016 Yaroslav Sapozhnyk <yaroslav.sapozhnik@gmail.com> - 1.0.0-1
-- Updating to rofi 1.0.0
-
-* Wed Dec 30 2015 Yaroslav Sapozhnyk <yaroslav.sapozhnik@gmail.com> - 0.15.12-1
-- Updating to 0.15.12
-
-* Wed Dec 30 2015 Yaroslav Sapozhnyk <yaroslav.sapozhnik@gmail.com> - 0.15.11-2
-- Spec file cleanup
-
-* Wed Dec 30 2015 Yaroslav Sapozhnyk <yaroslav.sapozhnik@gmail.com> - 0.15.11-1
-- Initial package
-
-
