@@ -7,6 +7,7 @@ URL:            http://herbstluftwm.org
 Source0:        https://github.com/herbstluftwm/herbstluftwm/archive/v%{version}.tar.gz
 
 BuildRequires:  asciidoc
+BuildRequires:  gcc-c++
 BuildRequires:  glib2-devel
 BuildRequires:  libX11-devel
 BuildRequires:  libXinerama-devel
