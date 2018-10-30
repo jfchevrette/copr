@@ -7,6 +7,7 @@ License:        ISC
 URL:            https://github.com/baskerville/sxhkd
 Source0:        https://github.com/baskerville/sxhkd/archive/%{version}.tar.gz
 
+BuildRequires:  gcc
 BuildRequires:  xcb-util-devel
 BuildRequires:  xcb-util-keysyms-devel
 
