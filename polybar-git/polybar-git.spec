@@ -1,9 +1,9 @@
-%define     commit0         77d36b959df0ce5e129044697da2c306c355abeb
+%define     commit0         152125dce94f3ace7296d4ee36df42381546711e
 %define     shortcommit0    %(c=%{commit0}; echo ${c:0:7})
 %define     timestamp       %(date +"%Y%m%d%H%M")
 
 Name:       polybar-git
-Version:    3.1.0
+Version:    3.2.1
 Release:    1.%{timestamp}git%{shortcommit0}%{?dist}
 Summary:    A fast and easy-to-use tool for creating status bars
 License:    MIT
