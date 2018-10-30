@@ -8,7 +8,7 @@ URL: https://github.com/jaagr/polybar
 BuildRequires: alsa-lib-devel
 BuildRequires: binutils
 BuildRequires: cairo-devel
-BuildRequires: clang
+#BuildRequires: clang
 BuildRequires: cmake
 BuildRequires: cmake-data
 BuildRequires: gcc-c++
