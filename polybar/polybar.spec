@@ -47,8 +47,8 @@ mkdir build
 cd build
 cmake .. \
     -DCMAKE_INSTALL_PREFIX:PATH=/usr \
-    -DCMAKE_C_COMPILER="clang" \
-    -DCMAKE_CXX_COMPILER="clang++" \
+    -DCMAKE_C_COMPILER="cc" \
+    -DCMAKE_CXX_COMPILER="c++" \
     -DENABLE_ALSA:BOOL="ON" \
     -DENABLE_I3:BOOL="ON" \
     -DENABLE_MPD:BOOL="ON" \
