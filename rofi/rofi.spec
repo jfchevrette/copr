@@ -9,6 +9,7 @@ URL:		  https://davedavenport.github.io/rofi/
 Source0:	https://github.com/DaveDavenport/rofi/releases/download/%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires: bison
+BuildRequires: flex
 BuildRequires: gcc
 BuildRequires: pkgconfig(xft) >= 2.0
 BuildRequires: pkgconfig(cairo-xcb)
